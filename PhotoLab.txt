@@ -1,0 +1,11 @@
+This program is an updated version of assignment 3, in which the arrays of color
+ channels are changed into structures and three more filters are added. The 
+three new filters are: Rotate, Resize, and Saturate. They are implemented 
+according to the given algorithms. 
+Rotate: according to the choise made by the user, the function will either flip
+or rotate the image. 
+Resize: this function will resize the image according to the user's input
+percentage. When input is greater than 100.00, the function will enlarge the 
+image. When input is less than 100.00, the function will shrink the image. 
+Saturate: this function will change the saturation of an image. It reads user's
+input for precentage of saturation. 
